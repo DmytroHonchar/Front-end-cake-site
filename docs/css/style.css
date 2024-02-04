@@ -1,0 +1,384 @@
+/* ------------------------Header and Navigation Styles----------------------------- */
+.logo {
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: space-between;
+    margin: 0 70px 0 0;
+    font-size: 25px;
+    transition-duration: 0.6s;
+}
+
+nav a:hover{
+    color: #ee6e12;
+}
+
+
+nav {
+    padding: 40px;
+    margin-top: 15px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
+
+/*------------------------------ Body and Center of the Page Styles----------------------- */
+
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.img_text {
+    background-image: url(/Images/HomeImage/bg3.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 1050px;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 1s ease-in-out;
+}
+
+.img_text.flipped {
+    background-image: url(/Images/extra/bg.jpg);
+}
+
+.intro-description {
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: 'Agbalumo';
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 5px;
+    font-family: 'Caveat';
+    font-size: 20px;
+    line-height: 30px;
+    margin: 35px 0 0 70%; 
+    transition-duration: 0.3s;
+    box-shadow: 2px 2px 4px #ee6e12;
+}
+
+.button:hover{
+    color: #ee6e12;
+    box-shadow: 0 4px 8px #ee6e12;
+}
+
+/* ----------------------Products Navigation Styles--------------------------------- */
+
+.title_cat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* border: 2px solid red; */
+}
+
+h2{
+    font-size: 23px; 
+    color: #ee6e12;
+    font-family: Agbalumo;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.title_cake{
+    font-size: 30px;
+    font-family: Caveat;
+}
+
+/* --------------- */
+
+.products-cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: url(/Images/HomeImage/stars_bg2.jpg);
+    background-size: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 0 0;
+}
+
+.img_product{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.img_product.zoomed {
+    transform: scale(1.2);
+}
+
+
+.item-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+
+.link_product{
+    text-decoration: none;
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    margin-top: 10px;
+    transition-duration: 0.3s;
+}
+
+.link_product:hover{
+    color: #ee6e12;
+}
+
+.add_card{
+    text-decoration: none;
+    color: white;
+    background-color: #ee6e12;
+    font-size: 18px;
+    border-radius: 5px;
+    font-family: Bebas Neue;
+    padding: 10px;
+    transition-duration: 0.5s;
+    margin-top: 4px;
+}
+
+.add_card:hover{
+    background-color: #292726;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+  
+
+.price{
+    font-family: Bebas Neue;
+    color:#ee6e12;
+    font-size: 20px;
+    margin: 2px ;
+}
+
+hr {
+    border: 1px solid #333; /* Solid black border */
+    margin: 20px 0; /* Adds some space above and below the line */
+}
+
+/* ------------------------Story Cake------------------------ */
+
+.story_cake{
+    background: url(/Images/HomeImage/cake\ for\ page.jpg);
+    background-size: cover;
+    background-position-x: ;
+    background-position-y: 5%;
+    background-repeat: no-repeat;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+    width: 1050px;
+    height: 380px;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 40px 30px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 30px;
+}
+
+.title_story{
+    color:#ee6e12;
+    font-family: Playfair Display;
+    font-size: 28px;
+    grid-area: 1/3/1/7;
+}
+.p_story{
+    color: white;
+    font-family: Caveat;
+    font-size: 23px;
+    grid-area: 2/6/2/-1;
+    margin-right: 2px;
+    text-align: justify;
+}
+
+.button_story{
+    color: white;
+    background-color: #ee6e12;
+    padding: 2px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family: 'Caveat';
+    font-size: 20px;
+    grid-area: 5/10/5/10;
+}
+
+
+#story_button{
+    transition: transform 0.3s ease-in-out;
+  }
+
+/* ------------------------------Footer------------------------------------------- */
+
+
+.logo2 {
+    display: flex;
+    width: 200px;
+    margin-left: 30px;
+}
+  
+.footer_items {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(22, 50px);
+    /* gap: 10px; Optional: add some gap between items */
+}
+  
+.links_footer{
+ grid-area: 1/2/1/5;
+}
+
+.links_footer2{
+    grid-area: 1/5/2/8;
+}
+
+.links_footer a {
+    color: white;
+    font-family: KdamThmor;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.links_footer a:hover{
+    color: #ee6e12;
+}
+  
+.links_footer2 a {
+    color: white;
+    font-family: KdamThmor;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.links_footer2 a:hover{
+    color: #ee6e12;
+}
+  
+.email_footer {
+    color: white;
+    font-family: KdamThmor;
+    font-size: 15px;
+    text-decoration: none;
+    grid-area:1/17/2/22;
+}
+  
+.email_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.media_f{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.email_em{
+    display: flex;
+}
+
+.email_em a:hover{
+    color: #ee6e12;
+}
+
+input[type="email"] {
+    background-color: black;
+    border: none;
+    border-bottom: 0.5px solid #242424;
+    color: white;
+    width:120px;
+    outline: none; 
+    margin: 0 5px;
+    /* Don't forget to remove auto google background */
+}
+
+.end_f{
+    color: white;
+    grid-area: 2/2/2/5;
+    margin-top: 35px;
+    font-family: Agbalumo;
+}
+
+
+/* -----------------------------Font Styles -------------------------------------*/
+@font-face {
+    font-family: 'Agbalumo';
+    src: url('/css/font-family/Agbalumo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/css/font-family/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/css/font-family/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('/css/font-family/Caveat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KdamThmor';
+    src: url('/css/font-family/KdamThmorPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('/css/font-family/Cinzel-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SpecialElite';
+    src: url('/css/font-family/SpecialElite-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AkayaKanadaka';
+    src: url('/css/font-family/AkayaKanadaka-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url('/css/font-family/LuckiestGuy-Regular.ttf') format('truetype');
+}

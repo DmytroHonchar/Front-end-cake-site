@@ -1,0 +1,369 @@
+/* ------------------------Header and Navigation Styles----------------------------- */
+.logo {
+    width: 200px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    justify-content: space-between;
+    margin: 0 70px 0 0;
+    font-size: 25px;
+    transition-duration: 0.6s;
+}
+
+nav {
+    padding: 40px;
+    margin-top: 15px;
+}
+
+nav a:hover{
+    color: #ee6e12;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+}
+
+/*------------------------------ Body and Center of the Page Styles----------------------- */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.holder12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.text_holder1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.text_cont{
+    color: white;
+    font-size: 30px;
+    font-family: SpecialElite;
+    align-items: center;
+    text-align: left;
+    margin: 3px 0;
+}
+
+.text_sm_cont{
+    color: white;
+    font-size: 15px;
+    font-family: SpecialElite;
+    align-items: center;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.mail_text{
+    color: white;
+    font-size: 15px;
+    font-family: SpecialElite;
+    align-items: center;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.email_img{
+    margin-left: 80px; 
+    align-self: center; 
+    background-color: gray;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.mail_holder{
+    display: flex;
+    flex-direction: row;
+}
+
+.contoinerforh{
+    margin-top: 60px;
+    margin-left: 80px;
+}
+
+
+.text_holder2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.text_cont2{
+    color: white;
+    font-size: 20px;
+    font-family: SpecialElite;
+    align-self: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.forrocket{
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+    align-self: center;
+    justify-content:end;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type= "text"] {
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 3px;
+    width: 400px;
+    font-family: Playfair Display;
+}
+
+input[type="email1"]{
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 3px;
+    width: 400px;
+    font-family: Playfair Display;
+}
+
+/* Style the textarea */
+textarea {
+    padding: 3px;
+    margin: 5px;
+    border-radius: 15px;
+    resize: none;
+    width: 400px;
+    height: 100px;
+    font-family: Playfair Display;
+  }
+
+  .text_sm_cont2{
+    color: white;
+    font-size: 15px;
+    font-family: SpecialElite;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+/* button[type="submit"]{
+    border-radius: 15px;
+    width: 130px;
+    font-family: Bebas Neue;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: none;
+    background-color: #124dee;
+} */
+
+button[type="submit"]{
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue';
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    width: fit-content;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+button[type="submit"]:active {
+    color: #000
+}
+
+button[type="submit"]:active:after {
+    background: transparent;
+}
+
+button[type="submit"]:hover:before {
+    opacity: 1;
+}
+
+button[type="submit"]:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #26282b;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* ------------------------------Footer------------------------------------------- */
+
+
+.logo2 {
+    display: flex;
+    width: 200px;
+    margin-left: 30px;
+}
+  
+.footer_items {
+    display: grid;
+    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(22, 50px);
+    /* gap: 10px; Optional: add some gap between items */
+}
+  
+.links_footer{
+ grid-area: 1/2/1/5;
+}
+
+.links_footer2{
+    grid-area: 1/5/2/8;
+}
+
+.links_footer a {
+    color: white;
+    font-family: KdamThmor;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+  
+.links_footer2 a {
+    color: white;
+    font-family: KdamThmor;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+  
+.email_footer {
+    color: white;
+    font-family: KdamThmor;
+    font-size: 15px;
+    text-decoration: none;
+    grid-area:1/17/2/22;
+}
+  
+.email_footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.media_f{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.email_em{
+    display: flex;
+}
+
+input[type="email"] {
+    background-color: black;
+    border: none;
+    border-bottom: 0.5px solid #242424;
+    color: white;
+    width:120px;
+    outline: none; 
+    margin: 0 5px;
+    /* Don't forget to remove auto google background */
+}
+
+.end_f{
+    color: white;
+    grid-area: 2/2/2/5;
+    margin-top: 35px;
+}
+
+
+/* -----------------------------Font Styles -------------------------------------*/
+@font-face {
+    font-family: 'Agbalumo';
+    src: url('/css/font-family/Agbalumo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('/css/font-family/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/css/font-family/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Caveat';
+    src: url('/css/font-family/Caveat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'KdamThmor';
+    src: url('/css/font-family/KdamThmorPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url('/css/font-family/Cinzel-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SpecialElite';
+    src: url('/css/font-family/SpecialElite-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'AkayaKanadaka';
+    src: url('/css/font-family/AkayaKanadaka-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LuckiestGuy';
+    src: url('/css/font-family/LuckiestGuy-Regular.ttf') format('truetype');
+}
