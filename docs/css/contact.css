@@ -341,45 +341,45 @@ input[type="email"] {
 /* -----------------------------Font Styles -------------------------------------*/
 @font-face {
     font-family: 'Agbalumo';
-    src: url('/css/font-family/Agbalumo-Regular.ttf') format('truetype');
+    src: url('font-family/Agbalumo-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('/css/font-family/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    src: url('font-family/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('/css/font-family/BebasNeue-Regular.ttf') format('truetype');
+    src: url('font-family/BebasNeue-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Caveat';
-    src: url('/css/font-family/Caveat-VariableFont_wght.ttf') format('truetype');
+    src: url('font-family/Caveat-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'KdamThmor';
-    src: url('/css/font-family/KdamThmorPro-Regular.ttf') format('truetype');
+    src: url('font-family/KdamThmorPro-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Cinzel';
-    src: url('/css/font-family/Cinzel-VariableFont_wght.ttf') format('truetype');
+    src: url('font-family/Cinzel-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'SpecialElite';
-    src: url('/css/font-family/SpecialElite-Regular.ttf') format('truetype');
+    src: url('font-family/SpecialElite-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'AkayaKanadaka';
-    src: url('/css/font-family/AkayaKanadaka-Regular.ttf') format('truetype');
+    src: url('font-family/AkayaKanadaka-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'LuckiestGuy';
-    src: url('/css/font-family/LuckiestGuy-Regular.ttf') format('truetype');
+    src: url('font-family/LuckiestGuy-Regular.ttf') format('truetype');
 }

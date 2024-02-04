@@ -38,7 +38,7 @@ body {
 
 
 .logoside{
-    background-image: url(/Images/extra/tiramisu.jpg);
+    background-image: url(../images/extra/tiramisu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 50%;
@@ -108,49 +108,48 @@ button:hover{
     color: #ee6e12;
 }
 
-
 /* -----------------------------Font Styles -------------------------------------*/
 @font-face {
     font-family: 'Agbalumo';
-    src: url('/pages_css/font-family/Agbalumo-Regular.ttf') format('truetype');
+    src: url('font-family/Agbalumo-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Playfair Display';
-    src: url('/pages_css/font-family/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
+    src: url('font-family/PlayfairDisplay-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('/pages_css/font-family/BebasNeue-Regular.ttf') format('truetype');
+    src: url('font-family/BebasNeue-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Caveat';
-    src: url('/pages_css/font-family/Caveat-VariableFont_wght.ttf') format('truetype');
+    src: url('font-family/Caveat-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'KdamThmor';
-    src: url('/pages_css/font-family/KdamThmorPro-Regular.ttf') format('truetype');
+    src: url('font-family/KdamThmorPro-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Cinzel';
-    src: url('/pages_css/font-family/Cinzel-VariableFont_wght.ttf') format('truetype');
+    src: url('font-family/Cinzel-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'SpecialElite';
-    src: url('/pages_css/font-family/SpecialElite-Regular.ttf') format('truetype');
+    src: url('font-family/SpecialElite-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'AkayaKanadaka';
-    src: url('/pages_css/font-family/AkayaKanadaka-Regular.ttf') format('truetype');
+    src: url('font-family/AkayaKanadaka-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'LuckiestGuy';
-    src: url('/pages_css/font-family/LuckiestGuy-Regular.ttf') format('truetype');
+    src: url('font-family/LuckiestGuy-Regular.ttf') format('truetype');
 }
