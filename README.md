@@ -15,7 +15,7 @@ The Cake Me website is a full-featured e-commerce platform designed to offer a w
 
 - **HTML5**: For structuring the content and semantics of the website.
 - **CSS3**: For styling, including advanced features like CSS Grid, Flexbox, animations, and media queries to create a responsive design.
-- **JavaScript (Assumption)**: For dynamic content and interactivity, enhancing the user experience (if applicable).
+- **JavaScript**: For dynamic content and interactivity, enhancing the user experience.
 
 ## File Structure
 
